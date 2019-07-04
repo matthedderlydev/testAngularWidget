@@ -1,0 +1,58 @@
+.widgetGrp{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.inField{
+  border: 1px solid lightgrey;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.btnDiv{
+  border-radius: 0px 10px 10px 0px;
+  border: 1px solid lightgrey;
+}
+
+
+.plusBtn{
+  display: block;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: white;
+  width: 25px;
+  border-radius: 0px 10px 0px 0px;
+  height: 33px;
+
+  border: none;
+  border-bottom: 1px solid lightgrey;
+
+}
+
+.plusBtn:focus{
+  outline:  none;
+  box-shadow: none;
+}
+.minusBtn:focus{
+  outline:  none;
+  box-shadow: none;
+}
+
+.minusBtn{
+  display: block;
+  -webkit-appearance: none;
+  appearance: none;
+  border:none;
+  background-color: white;
+  width: 25px;
+  border-radius: 0px 0px 10px 0px;
+  height: 33px;
+  border-top: 1px solid lightgrey;
+  }
+
+.inputTxt{
+  padding-left: 10px;
+}
+
+:host::ng-deep .mat-form-field-underline {
+  display: none;
+}
