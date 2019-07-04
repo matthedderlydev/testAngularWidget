@@ -5,12 +5,10 @@
 
 .inField{
   border: 1px solid lightgrey;
-  border-radius: 10px 0px 0px 10px;
+  border-radius:10px;
 }
 
 .btnDiv{
-  border-radius: 0px 10px 10px 0px;
-  border: 1px solid lightgrey;
 }
 
 
@@ -22,9 +20,7 @@
   width: 25px;
   border-radius: 0px 10px 0px 0px;
   height: 33px;
-
   border: none;
-  border-bottom: 1px solid lightgrey;
 
 }
 
@@ -46,7 +42,6 @@
   width: 25px;
   border-radius: 0px 0px 10px 0px;
   height: 33px;
-  border-top: 1px solid lightgrey;
   }
 
 .inputTxt{
@@ -55,4 +50,17 @@
 
 :host::ng-deep .mat-form-field-underline {
   display: none;
+}
+
+.otherOption{
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  }
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+
+   opacity: 1;
+
 }

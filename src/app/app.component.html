@@ -1,14 +1,26 @@
 <h3>Up/Down Example</h3>
 
+<h4>buttons + input</h4>
 <div class="widgetGrp inField">
 
 <mat-form-field>
   <input type="text" matInput [(value)]="value" class="inputTxt">
 </mat-form-field>
-</div>
-
 <div class="widgetGrp btnDiv">  
-<button (click)="numberUp()" class="plusBtn">+</button>
+<button (click)="numberUp()" class="plusBtn fas fa-angle-up">+</button>
 <button (click)="numberDown()" class="minusBtn">-</button>
   
 </div>
+</div>
+
+<br><br>
+
+<h4>input number field</h4>
+
+<mat-form-field >
+  <input class="otherOption"  type="number" matInput [(ngModel)]="value" >
+</mat-form-field>
+
+
+
+
